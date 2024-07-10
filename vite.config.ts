@@ -7,6 +7,7 @@ import path from 'node:path'
 const projectRootDir = path.resolve(__dirname)
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/authority-management/',
   plugins: [
     vue(),
     AutoImport({
