@@ -1,8 +1,8 @@
-import { createWebHistory, createRouter } from 'vue-router'
+import { createWebHashHistory, createRouter } from 'vue-router'
 import useAuthorityStore from '@/store/useAuthorityStore'
 const mainPath = '/home'
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
         {
             path: '/',
