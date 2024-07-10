@@ -1,0 +1,1 @@
+import{_ as o}from"./index-B-5io2bX.js";import{S as t,U as e}from"./@vue-B5e1V-Bk.js";import"./pinia-CB8a2h1g.js";import"./vue-demi-Dq6ymT-8.js";import"./vue-router-DsMFJ9f9.js";/* empty css                      */const r={},c={class:"index"};function n(s,i){return t(),e("div",c," 我是四级路由面 ")}const l=o(r,[["render",n]]);export{l as default};
