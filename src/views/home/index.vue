@@ -38,7 +38,7 @@ const handleRefreshView = () => {
 
 .sidebar {
     grid-row: 1/3;
-    height: calc(100vh - 80px);
+    height: 100vh;
 }
 
 .sidebar,
@@ -51,6 +51,6 @@ const handleRefreshView = () => {
     background: #efeff5;
     padding: 10px 15px;
     box-sizing: border-box;
-    overflow-y: hidden;
+    overflow-y: scroll;
 }
 </style>

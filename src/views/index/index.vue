@@ -8,7 +8,6 @@
         <n-button type="primary" v-permission="code">测试权限按钮（基于自定义指令）</n-button>
         <div>
             <n-button size="medium" @click="handleChangeCode">修改权限</n-button>
-
         </div>
     </div>
 </template>
